@@ -1,0 +1,146 @@
+.eventblock .date {
+	background: #eee;
+	padding: 15px;
+	text-align: center;
+	margin: 12px 0px;
+	
+}
+.blurbrow a {
+	color: white;
+    padding: 7px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+	background-color: #2b2767;
+}
+/*childrens programs*/
+.dates span {
+	    display: inline-block;
+    padding: 7px 22px 12px 0px;
+}
+.time span {
+	    display: inline-block;
+    padding: 7px 22px 12px 0px;
+}
+.rel {
+	position: relative;
+}
+.abs {
+	position: absolute;
+}
+.agerange {
+	position: absolute;
+	top:0px;
+	right :0px;
+}
+.wd {
+	text-align: center;
+	padding: 44px 15px;
+	background-color: #eee;
+}
+.regbtn {
+	text-transform: uppercase;
+	background: #88afc1;
+}
+a.regbtn  {
+	color: white;
+	padding: 5px 32px;
+	font-family: NotoSans;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	text-align: center;	
+}
+/*childrens program end*/
+/*people card*/
+.peoplecard span {
+	display:block;
+}
+.threelist .col {
+	padding: 12px 0px;
+}
+/*people card end*/
+/*image gallery*/
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 2;
+  }
+}
+/*image gallery end*/
+/*carousel*/
+#carouselHome h3 {
+	text-align: left;
+	font-size: 33px;
+}
+#carouselHome p {
+	text-align: left;
+	display: block;
+	width: 100%;
+	background:;
+}
+#carouselHome .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 53px;
+    left: 3%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+#carouselHome .alert {
+	position: absolute;
+    z-index: 999;
+    bottom: 0px;
+    background: #ff000080;
+    color: white;
+    left: 0px;
+    right: 0pc;
+}
+
+/* MCcoder */
+
+/*makes the carousel responsive*/
+.carousel-item .img-fluid {
+  width:100%;
+  height:100%;
+}
+/*Content grid*/
+.squaregrid .col {
+	padding: 28px;
+	border: solid 1px #dddddd;
+	margin: 2px;
+}
+.squaregrid a {
+	font-size: 31px;
+    color: #2b2767;
+    font-family: 'museo', sans-serif;
+    font-weight: 600;
+}
+.squaregrid a:hover {
+	color: white;
+	text-decoration: none;
+}
+.squaregrid .col:hover {
+	color: white;
+	background: #88afc1;
+}
+.hover a {
+	color: white;
+
+}
+/*nice colorful buttons in the theme options panel*/
+body .wgdebtn {
+	color: white;
+	padding: 7px;
+	width: 100%;
+	display:block;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+}
